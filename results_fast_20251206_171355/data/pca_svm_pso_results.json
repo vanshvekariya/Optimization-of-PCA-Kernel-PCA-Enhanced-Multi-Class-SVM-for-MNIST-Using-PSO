@@ -1,0 +1,14 @@
+{
+    "reduction_time": 0.3939352035522461,
+    "optimization_time": 861.8543717861176,
+    "training_time": 1.5206522941589355,
+    "prediction_time": 7.1810877323150635,
+    "total_time": 882.4184484481812,
+    "train_accuracy": 0.997,
+    "test_accuracy": 0.9661,
+    "best_params": {
+        "C": 3.2250998482833704,
+        "gamma": 0.003250972658187681,
+        "accuracy": 0.968
+    }
+}
