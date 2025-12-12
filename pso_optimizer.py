@@ -16,8 +16,6 @@ Key Concepts:
 - Cognitive Component (c1): Attraction to personal best
 - Social Component (c2): Attraction to global best
 
-Author: ML Project
-Date: December 2025
 """
 
 import numpy as np

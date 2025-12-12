@@ -4,8 +4,6 @@ Report Generation Script
 This script helps generate a complete project report by loading experimental
 results and filling in the report template with actual values.
 
-Author: ML Project
-Date: December 2025
 """
 
 import os

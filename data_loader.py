@@ -4,8 +4,6 @@ Data Loader Module for MNIST Dataset
 This module handles loading and preprocessing of the MNIST handwritten digit dataset.
 It provides utilities for data normalization, train-test splitting, and data exploration.
 
-Author: ML Project
-Date: December 2025
 """
 
 import numpy as np

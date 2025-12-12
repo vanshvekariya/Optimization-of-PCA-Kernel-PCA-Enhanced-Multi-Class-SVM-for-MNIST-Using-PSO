@@ -4,8 +4,6 @@ Visualization Module
 This module provides advanced visualization utilities for the MNIST classification project.
 Includes functions for plotting results, comparisons, and generating figures for the report.
 
-Author: ML Project
-Date: December 2025
 """
 
 import numpy as np

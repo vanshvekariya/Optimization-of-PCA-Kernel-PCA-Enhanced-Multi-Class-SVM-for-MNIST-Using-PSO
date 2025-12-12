@@ -566,13 +566,6 @@ K(x, x') = exp(-gamma * ||x - x'||²)
 
 ---
 
-## Contributors
-
-University of Victoria  
-Machine Learning Project  
-December 2025
-
----
 
 ## License
 

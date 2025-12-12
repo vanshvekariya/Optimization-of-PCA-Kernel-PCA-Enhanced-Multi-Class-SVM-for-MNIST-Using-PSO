@@ -6,8 +6,6 @@ and that the project modules can be imported successfully.
 
 Run this before executing main.py to ensure everything is set up correctly.
 
-Author: ML Project
-Date: December 2025
 """
 
 import sys

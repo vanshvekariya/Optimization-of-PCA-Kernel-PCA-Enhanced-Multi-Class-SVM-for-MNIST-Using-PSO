@@ -6,8 +6,6 @@ This module provides end-to-end pipelines for MNIST classification combining:
 - Multi-class SVM classification
 - Hyperparameter optimization (PSO or Grid Search)
 
-Author: ML Project
-Date: December 2025
 """
 
 import numpy as np

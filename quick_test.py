@@ -4,8 +4,6 @@ ULTRA-FAST TEST VERSION
 This runs in 3-5 minutes to verify everything works.
 Use this to test before running the full version.
 
-Author: ML Project
-Date: December 2025
 """
 
 import numpy as np

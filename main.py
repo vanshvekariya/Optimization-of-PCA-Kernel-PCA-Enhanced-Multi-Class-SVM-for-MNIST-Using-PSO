@@ -12,8 +12,6 @@ Experiments:
 4. Comparison of all methods
 5. Detailed analysis and visualization
 
-Author: ML Project
-Date: December 2025
 """
 
 import numpy as np
