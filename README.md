@@ -37,7 +37,8 @@ The project compares different combinations of these techniques and evaluates th
 
 1. **Clone or download the project**
    ```bash
-   cd "c:/Users/Vansh Vekaria/Desktop/UVic Study/ML Project/Code"
+   git clone <repository-url>
+   cd Optimization-of-PCA-Kernel-PCA-Enhanced-Multi-Class-SVM-for-MNIST-Using-PSO
    ```
 
 2. **Install required packages**
@@ -47,6 +48,11 @@ The project compares different combinations of these techniques and evaluates th
 
 3. **Verify installation**
    ```bash
+   python test_installation.py
+   ```
+   
+   Or manually check:
+   ```bash
    python -c "import numpy, sklearn, matplotlib; print('All packages installed successfully!')"
    ```
 
@@ -55,7 +61,7 @@ The project compares different combinations of these techniques and evaluates th
 ## Project Structure
 
 ```
-Code/
+Optimization-of-PCA-Kernel-PCA-Enhanced-Multi-Class-SVM-for-MNIST-Using-PSO/
 │
 ├── data_loader.py              # MNIST data loading and preprocessing
 ├── dimensionality_reduction.py # PCA and Kernel PCA implementation
@@ -63,9 +69,14 @@ Code/
 ├── pso_optimizer.py            # Particle Swarm Optimization
 ├── pipeline.py                 # Complete classification pipelines
 ├── visualization.py            # Results visualization utilities
-├── main.py                     # Main execution script
+├── main.py                     # Main execution script (full experiments)
+├── main_fast.py                # Fast execution script (quick tests)
+├── quick_test.py               # Quick validation script
+├── test_installation.py        # Installation verification script
+├── generate_report.py          # Report generation utilities
 ├── requirements.txt            # Python dependencies
-└── README.md                   # This file
+├── README.md                   # This file
+└── .gitignore                  # Git ignore rules
 
 results_YYYYMMDD_HHMMSS/       # Generated results directory
 ├── figures/                    # Generated plots and visualizations
@@ -78,6 +89,8 @@ results_YYYYMMDD_HHMMSS/       # Generated results directory
 
 ### Quick Start
 
+#### Option 1: Full Experiments (Recommended for complete analysis)
+
 Run all experiments with default settings:
 
 ```bash
@@ -89,6 +102,26 @@ This will:
 2. Run 6 comprehensive experiments
 3. Generate visualizations and save results
 4. Create a timestamped results directory
+
+**Note:** This may take 10-20 minutes depending on your hardware.
+
+#### Option 2: Fast Experiments (Quick validation)
+
+Run a faster version with reduced dataset:
+
+```bash
+python main_fast.py
+```
+
+This runs experiments on a smaller subset for quick validation.
+
+#### Option 3: Quick Test (Installation check)
+
+Run a minimal test to verify everything works:
+
+```bash
+python quick_test.py
+```
 
 ### Running Individual Modules
 
@@ -533,10 +566,10 @@ K(x, x') = exp(-gamma * ||x - x'||²)
 
 ---
 
-## Author
+## Contributors
 
-**ML Project**  
 University of Victoria  
+Machine Learning Project  
 December 2025
 
 ---
